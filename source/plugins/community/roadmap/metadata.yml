@@ -1,0 +1,86 @@
+name: 🗺️ Roadmap
+category: community
+description: |
+  This plugin renders a lightweight roadmap diagram with a branching decision point.
+  It is useful for communicating high-level plans directly from your metrics card.
+authors:
+  - openai
+supports:
+  - user
+  - organization
+  - repository
+scopes: []
+inputs:
+
+  plugin_roadmap:
+    description: |
+      Enable roadmap plugin
+    type: boolean
+    default: no
+
+  plugin_roadmap_title:
+    description: |
+      Section title displayed above the roadmap
+    type: string
+    default: Product roadmap
+
+  plugin_roadmap_main:
+    description: |
+      Sequential stops before the fork
+    type: array
+    format: comma-separated
+    default: Discovery, Planning, Development
+    minItems: 3
+
+  plugin_roadmap_left_title:
+    description: |
+      Label for the upper branch
+    type: string
+    default: Validation track
+
+  plugin_roadmap_left:
+    description: |
+      Stops displayed on the upper branch (should include at least one more stop than the lower branch)
+    type: array
+    format: comma-separated
+    default: Prototype, Pilot launch
+    minItems: 1
+
+  plugin_roadmap_right_title:
+    description: |
+      Label for the lower branch
+    type: string
+    default: Fast track
+
+  plugin_roadmap_right:
+    description: |
+      Stops displayed on the lower branch
+    type: array
+    format: comma-separated
+    default: Quick win
+    minItems: 1
+
+  plugin_roadmap_merge:
+    description: |
+      Label placed where the two branches converge
+    type: string
+    default: Converge
+
+  plugin_roadmap_final:
+    description: |
+      Final stops after both branches converge
+    type: array
+    format: comma-separated
+    default: Launch preparation, Launch
+    minItems: 2
+
+  plugin_roadmap_palette:
+    description: |
+      Color palette used for the roadmap accents
+    type: string
+    default: modern
+    values:
+      - modern
+      - sunrise
+      - ocean
+      - monochrome
