@@ -54,20 +54,16 @@
       <img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.splatoon.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
-  </tr>
-  <tr>
+  </tr>  <tr>
     <th><a href="/source/plugins/community/stock/README.md">💹 Stock prices</a><br><sup>by <a href="https://github.com/lowlighter">@lowlighter</a></sup></th>
-    <th><a href="/source/plugins/community/roadmap/README.md">🗺️ Roadmap</a><br><sup>by <a href="https://github.com/openai">@openai</a></sup></th>
+    <th></th>
   </tr>
   <tr>
     <td  align="center">
       <img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.stock.svg" alt=""></img>
       <img width="900" height="1" alt="">
     </td>
-    <td  align="center">
-      <img alt="" width="400" src="https://via.placeholder.com/468x60?text=No%20preview%20available" alt=""></img>
-      <img width="900" height="1" alt="">
-    </td>
+<td align="center"><img width="900" height="1" alt=""></td>
   </tr>
 </table>
 

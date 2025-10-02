@@ -59,5 +59,4 @@ Plugins provide additional content and lets you customize rendered metrics.
   * [📸 Website screenshot <sub>`screenshot`</sub>](/source/plugins/community/screenshot/README.md) by [@lowlighter](https://github.com/lowlighter)
   * [🦑 Splatoon <sub>`splatoon`</sub>](/source/plugins/community/splatoon/README.md) by [@lowlighter](https://github.com/lowlighter)
   * [💹 Stock prices <sub>`stock`</sub>](/source/plugins/community/stock/README.md) by [@lowlighter](https://github.com/lowlighter)
-  * [🗺️ Roadmap <sub>`roadmap`</sub>](/source/plugins/community/roadmap/README.md) by [@openai](https://github.com/openai)
 
